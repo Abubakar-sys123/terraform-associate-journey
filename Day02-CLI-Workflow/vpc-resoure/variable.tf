@@ -1,5 +1,3 @@
-variable "vpc_cidr" {}
+variable "vpc_cidr_block" {}
 variable "public_subnet_cidr" {}
-variable "az" {}
-variable "project_name" {}
-
+variable "availability_zone" {}
