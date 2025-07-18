@@ -1,3 +1,3 @@
 output "sg_id" {
-  value = aws_security_group.allow_ssh.id
+  value = aws_security_group.web_sg.id
 }
