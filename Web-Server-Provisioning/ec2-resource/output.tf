@@ -1,7 +1,7 @@
-variable "ami_id" {}
-variable "instance_type" {}
-variable "subnet_id" {}
-variable "sg_id" {}
-variable "key_name" {}
-variable "instance_name" {}
+output "instance_id" {
+  value = aws_instance.web.id
+}
 
+output "public_ip" {
+  value = aws_eip.web_ip.public_ip
+}
